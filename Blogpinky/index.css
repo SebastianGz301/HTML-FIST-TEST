@@ -1,0 +1,127 @@
+/* #titulo {
+    color: aqua;
+    border: 6px red solid;
+}
+
+
+
+p.main {
+    color: chartreuse;
+}
+
+div p{
+    color: cornflowerblue;
+}
+
+#color1 {
+    color: orange;
+    border: 5px orange dotted;
+    background-color: blueviolet;  
+}
+
+#color2 {
+    color: black;
+    border-style: solid;
+
+    border-radius: 5px;
+    border-width: 7px;
+    /* background-color: rgba(255, 255,0 );*/
+    /*opacity: 0.3;*/
+/*     background-image: url("pinky.jpg");
+    background-size: 100px 100px;
+    background-repeat: repeat-y;
+    background-position:  bottom;
+    padding: 20px 20px 20px 20px;
+    border: solid 3px black;
+    text-align: center;
+    
+
+}
+
+#color3 {
+    color: white;
+    border: 5px orange outset;
+    background-color: black;
+}
+
+*{
+    font-size: 24px;
+}
+/*comentario xdddd*/ 
+
+/* a:link{
+    color: orange; 
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    color: darkgreen;
+}   
+
+a:active{
+    color: red;
+}
+ */ 
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+header{
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+    
+}
+header h1{
+    font-size: 4rem;
+    text-align: center;
+    
+}
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+footer {
+    background-color: orange;
+    padding: 3rem;
+    color: #fff;
+
+}
+
+footer section{
+    float: right;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: black;
+    text-decoration: none;
+
+}
+
+footer a:hover{
+    color: aqua;
+}

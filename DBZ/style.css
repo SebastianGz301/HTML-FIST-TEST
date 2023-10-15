@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    background: url("img/kamehouse.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.titlexd{   
+    margin: 0 auto;
+    display: flex;
+    width: 500px;
+    height: 200px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img-container .imag{
+    position: relative;
+    margin-right: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    overflow: none;
+}
+
+.img-container .imag img{
+    width: 280px;
+    height: 600px;
+    transition: trasnform 0.32s ease-in-out;
+}
+
+.img-container .imag .name{
+    position: absolute;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    display: none;
+    min-width: 100px;
+    width: 150px;
+    top: -60px;
+    padding: 10px 10px;
+    right: 6vh;
+}
+
+.img-container .imag .name .text{
+    display: inline-block;
+    text-overflow:  ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.img-container .imag:hover .name{
+    display: inline-block;
+    transform:  translateY(-20px);
+}
+
+.img-container .imag .name::before{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 40%;
+    bottom: -20px;
+    border-top: solid 10px red;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.img-container .imag:hover img{
+    transform: translateY(-20px);
+}
+
+
+@media (max-width: 780px) {
+    .img-container {
+        flex-direction: column;
+        height: auto; /* Ajusta la altura automáticamente para dispositivos móviles */
+    }
+}
